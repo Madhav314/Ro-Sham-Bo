@@ -11,11 +11,11 @@ Window.title("Ro-Sham-Bo")
 font = font.Font(family="Helvetica", size=23, weight="bold")
 size = 100, 100
 
-rock = Image.open(r"")    # RECONFIGURE PATH TO
-paper = Image.open(r"")   # YOUR ABSOLUTE
-scissor = Image.open(r"") # FILE PATH
-sword = Image.open(r"")   # FOR IT
-reset = Image.open(r"")   # TO WORK
+rock = Image.open("../../Ro-Sham-Bo-master/Assets/rock.png")
+paper = Image.open("../../Ro-Sham-Bo-master/Assets/paper.png")
+scissor = Image.open("../../Ro-Sham-Bo-master/Assets/scissor.png")
+sword = Image.open("../../Ro-Sham-Bo-master/Assets/swords.png")
+reset = Image.open("../../Ro-Sham-Bo-master/Assets/reset.png")
 
 rock = rock.resize(size)
 paper = paper.resize(size)
